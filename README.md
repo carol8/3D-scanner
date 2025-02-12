@@ -5,8 +5,6 @@ This project presents a **low-cost 3D scanner** designed to measure and visualiz
 
 For full details, refer to the **complete documentation** in [3D Scanner.pdf](3D%20Scanner.pdf).
 
----
-
 ## Hardware Assembly Instructions
 
 ### Required Components:
@@ -24,7 +22,9 @@ For full details, refer to the **complete documentation** in [3D Scanner.pdf](3D
 3. Mount the **distance sensor** onto the second servo motor.  
 4. Secure all components using **M3 & M4 screws and nuts**.
 5. Ensure smooth rotation by manually testing the servos.  
+
 The full assembly should look like this once completed:
+
 ![image](https://github.com/user-attachments/assets/020e2f72-a9fc-4dbd-b794-885da58c3086)
 
 
@@ -39,10 +39,10 @@ The full assembly should look like this once completed:
    - **SCL** → A5 on Arduino
 3. **Power the servos separately** using the battery pack.
 4. **Connect GND of the battery pack** to Arduino GND (common ground for PWM signals).  
-The electrical diagram of the connections:
-![image](https://github.com/user-attachments/assets/58b6a973-4726-404f-9971-9604aaca9561)
 
----
+The electrical diagram of the connections:
+
+![image](https://github.com/user-attachments/assets/58b6a973-4726-404f-9971-9604aaca9561)
 
 ## Usage Instructions
 
@@ -57,7 +57,11 @@ The electrical diagram of the connections:
 2. Open the **Processing script**.
 3. Ensure that the correct serial port is set.
 4. Run the script to visualize **real-time distance measurements** in a 3D representation.  
-   ![Photo: Example of 3D Visualization](path_to_photo5.png)
+
+When both scripts are run concurrently, this should be the output of the visualisation script:
+
+![image](https://github.com/user-attachments/assets/25369ac6-01dd-40a9-a633-cdb6ce301e15)
+
 
 ---
 
@@ -67,4 +71,4 @@ For more details, including full source code and design considerations, check th
 
 ---
 
-📌 **This project is open-source and can be improved with better sensors, stepper motors, or refined calibration! Contributions are welcome!**
+**This project is open-source and can be improved with better sensors, stepper motors, or refined calibration! Contributions are welcome!**
